@@ -21,7 +21,7 @@
 
 7. Add your `DOCKER_USERNAME`, `DOCKER_PASSWORD`, `DOCKERHUB_REPO` at Github -> Settings -> Secrets and variables -> Actions
 
-8. GitHub-> Repo -> Action -> `Publish Python package` -> `Set up this workflow`
+8. GitHub-> Repo -> Action -> `Publish Python package` -> -> `Set up this workflow` by Delete content and copy and paste cd_config.yaml content 
 
 9. Paste contents of python-publish.yml
 
