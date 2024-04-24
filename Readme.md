@@ -1,18 +1,25 @@
-#Simple Flask CD pipeline 
+# Simple Flask CD pipeline 
 
 1. Set up GitHub Account & Repo
 
 2. Set up DockerHub account
 
+# Set up python environment called env
 3. python3 -m venv env
 
-4. source env/Scripts/activate
+# Activate virtual environment env
+4. source env/bin/activate
 
+# Install Flask
 5. pip install flask
 
+# Generate requirements.txt
 6. pip freeze > requirements.txt
 
-7. Add your `DOCKER_USERNAME`, `DOCKER_PASSWORD`, `DOCKERHUB_REPO` at Github -> Settings -> Secrets
+# Run the app locally
+6. python3 app.py
+
+7. Add your `DOCKER_USERNAME`, `DOCKER_PASSWORD`, `DOCKERHUB_REPO` at Github -> Settings -> Secrets and variables -> Actions
 
 8. GitHub-> Repo -> Action -> `Publish Python package` -> `Set up this workflow`
 
